@@ -1,0 +1,117 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul, h1 {
+  margin: 0;
+}
+ul, ol {
+  list-style: none;
+  padding-inline-start: 0;
+}
+hr {
+  margin: 36px 0;
+}
+
+a:visited {
+  color: inherit;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  max-width: 800px;
+  margin: auto;
+  padding: 12px;
+}
+
+footer {
+  margin: 24px 0;
+  text-align: right;
+  color: #4f5b66;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-img {
+  width: 130px;
+  height: 130px;
+}
+
+.title-text {
+  margin-left: 15px;
+}
+
+.title-title {
+  margin-top: 50px;
+  margin-block-end: -12px;
+}
+
+.title-text p {
+  color: 	#4f5b66;
+}
+
+.nav {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.nav-item {
+  margin-right: 12px;
+  color: #4b5162;
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 8px;
+}
+
+.nav-item:hover {
+  background-color: 	#d2d4dc;
+}
+
+.nav-item-active {
+  color: #383c4a;
+  text-decoration: underline;
+  text-decoration-color: #383c4a;
+}
+
+.postlist-item {
+  margin: 8px 0;
+}
+
+.postlist-item a {
+  font-weight: 900;
+}
+
+.postlist-item a:hover {
+  text-decoration: underline;
+  text-decoration-color: #383c4a;
+}
+
+.postlist-date, .post-date {
+  color: #65737e;
+}
+
+.post-date {
+  margin-right: 18px;
+}
+
+.post-title {
+  margin-bottom: 12px;
+}
+
+.post-tag {
+  padding: 0 4px;
+  text-decoration: none;
+  background-color: #a7adba;
+}
+
+.post-tag:hover {
+  text-decoration: underline;
+  text-decoration-color: #65737e;
+}
+
+.social-media-img {
+  height: 35px;
+}
